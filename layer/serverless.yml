@@ -1,0 +1,13 @@
+org: '1256177802'
+app: chord-progression
+stage: prod
+component: layer
+name: chord-progression-layer
+inputs:
+  name: chord-progression-layer
+  region: ap-guangzhou
+  src:
+    src: ../node_modules
+    targetDir: /node_modules
+  runtimes:
+    - Nodejs10.15
